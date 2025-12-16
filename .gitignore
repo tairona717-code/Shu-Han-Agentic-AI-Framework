@@ -1,0 +1,43 @@
+# PDF 檔案（不適合版控）
+*.pdf
+
+# LaTeX 編譯產物
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# 舊版本文件
+agents/AGENTS_v5.md
+
+# 重複的說明文件
+Shu-Han*.md
+!README.md
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Node
+node_modules/
+
+# 學術論文相關
+AGENTS_Framework_arxiv.tex
+README_AGENTS_arxiv.md
