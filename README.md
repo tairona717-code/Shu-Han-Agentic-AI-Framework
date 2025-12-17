@@ -19,7 +19,7 @@
 
 ```bash
 # 1. Clone 專案
-git clone https://github.com/your-username/Shu-Han.git
+git clone https://github.com/your-username/Shu-Han-Agentic-AI-Framework.git
 cd Shu-Han
 
 # 2. 將 agents/AGENTS_v5.1.md 貼給你的 ChatGPT/Claude 作為 System Prompt
