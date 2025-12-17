@@ -1,4 +1,17 @@
-# 🧠 Shu-Han Intelligence Architecture
+# 🧠 蜀漢智慧架構（Shu-Han Intelligence Architecture）
+
+一套以「治理」為核心的多代理 AI 架構，而非單一 AI 工具。
+
+- 人類決定方向（劉備）
+- ChatGPT 負責推演與治理（諸葛亮）
+- Agents 依正式軍令執行（虎符）
+- 記憶系統防止重複犯錯
+- 所有行為皆可追蹤、可審計、可測試
+
+📜 入門必讀：`agents/AGENTS_v5.1.md`  
+🐯 唯一合法指令來源：`orders/`（無虎符，不行動）  
+🛡️ 資安規範：`docs/hacker.md`
+
 
 ## 蜀漢人工智慧國 — Agentic AI Governance Framework
 
@@ -250,6 +263,17 @@ git checkout -b feat/SHU-YYYYMMDD-XX-your-feature
 如果你理解這套制度，  
 你不是在寫程式——  
 **你是在參與一個智慧文明的運作。**
+
+你可以用不同的「皮膚」運行同一個作業系統：
+
+- **Cybertron 版**（Transfomer 版）  
+  - Autobots、ALLSPARK、Teletraan-1  
+  - 直接向 Transformer 架構和 Transformers 宇宙致敬  
+
+- **蜀漢版**（三國）  
+  - 劉備（人類）、諸葛亮（核心 LLM）、五虎將作為專業代理  
+  - 華語原生的敘事層，對應到相同的結構
+
 
 ---
 

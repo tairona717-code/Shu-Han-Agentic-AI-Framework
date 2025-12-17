@@ -59,6 +59,46 @@ git push origin feat/SHU-YYYYMMDD-XX-your-feature
 
 ---
 
+## ⚔️ 無虎符，不行動
+
+**任何改動都必須對應一張軍令（虎符）**：
+
+- **路徑**：`orders/ORD-YYYYMMDD-XX.md`
+- **內容**：目的、依據、範圍、驗收、風險、回滾
+
+```markdown
+# 軍令範例
+**ID**: ORD-20251217-01
+**目的**: 新增策略生成 API
+**依據**: PRD-strategy-v1.md
+**範圍**: code/api/strategy.py
+**驗收**: E2E 測試通過
+**風險**: API 變更可能影響前端
+**回滾**: git revert + 通知前端團隊
+```
+
+> ⚠️ **沒有 order 的 PR 會被拒絕**
+
+---
+
+## 📋 先規格，後程式
+
+功能改動需先有：
+
+1. **PRD**（`specs/business/`）— 業務需求
+2. **SA/SD**（`specs/system/`）— 系統設計
+
+小修可用「Mini-SD」寫在 order 裡：
+
+```markdown
+## Mini-SD
+- 改動檔案: xxx.py
+- 改動原因: 修復 edge case
+- 影響範圍: 僅該函數
+```
+
+---
+
 ## 📝 Commit Message 格式
 
 ```
@@ -104,6 +144,31 @@ Refs: <相關文件>
 - [ ] 已加入/更新測試
 - [ ] Commit message 符合規範
 - [ ] 有對應的 TRACK_ID（軍令）
+- [ ] PR 描述包含 Security considerations
+
+---
+
+## 🧠 記憶系統要更新
+
+修 bug 或踩雷後，請更新至少一項：
+
+| 目錄 | 用途 | 更新時機 |
+|------|------|----------|
+| `memory/mistakes/` | 避免重犯 | 發現錯誤後 |
+| `memory/patterns/` | 可重用規則 | 發現好做法 |
+| `memory/sessions/` | 重要迭代摘要 | Pipeline 變更後 |
+
+範例：
+
+```markdown
+# memory/mistakes/M-20251217-01.md
+
+**錯在哪**: 未驗證用戶輸入導致 SQL injection
+**如何避免**: 使用 parameterized query
+**關聯 PR**: #42
+```
+
+> 📌 **不更新記憶 = 同樣的錯誤會重複發生**
 
 ---
 
