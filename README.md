@@ -268,7 +268,8 @@ git checkout -b feat/SHU-YYYYMMDD-XX-your-feature
 
 你可以用不同的「皮膚」運行同一個作業系統：
 
-- **Cybertron 版**（Transfomer 版）  
+- **Cybertron 版**（Transfomer 版）
+  - https://github.com/tairona717-code/Cybertron-Agentic-AI-Framework 
   - Autobots、ALLSPARK、Teletraan-1  
   - 直接向 Transformer 架構和 Transformers 宇宙致敬  
 
