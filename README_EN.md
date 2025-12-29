@@ -273,7 +273,8 @@ you're not writing code—
 
 You can run the same operating system with different "skins":
 
-- **Cybertron Version** (Transformer Edition)  
+- **Cybertron Version** (Transformer Edition)
+  - https://github.com/tairona717-code/Cybertron-Agentic-AI-Framework
   - Autobots, ALLSPARK, Teletraan-1  
   - Direct tribute to Transformer architecture and Transformers universe  
 
